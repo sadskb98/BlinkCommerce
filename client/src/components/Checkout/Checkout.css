@@ -1,0 +1,147 @@
+@keyframes rotate {
+  from {
+      transform: rotate(0deg);
+  }
+  to { 
+      transform: rotate(360deg);
+  }
+}
+
+
+@-webkit-keyframes rotate {
+  from {
+      -webkit-transform: rotate(0deg);
+  }
+  to { 
+      -webkit-transform: rotate(360deg);
+  }
+}
+.container{
+
+margin-top: 500px !important;
+margin-left: -195px !important;
+}
+#paytxt{
+margin-left: 210px !important;
+margin-top: 20px !important;
+font-weight: bold;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.type4{
+
+margin-top: 500px !important;
+}
+.load {
+width: 90px;
+height: 90px;
+margin-top: 160px;
+margin-left:  300px ;
+border: solid 10px #24e713;
+border-radius: 50%;
+border-right-color: rgb(146, 75, 75);
+border-bottom-color: rgb(4, 4, 4);
+ -webkit-transition: all 0.5s ease-in;
+  -webkit-animation-name:             rotate; 
+  -webkit-animation-duration:         1.0s; 
+  -webkit-animation-iteration-count:  infinite;
+  -webkit-animation-timing-function: linear;
+    
+     transition: all 0.5s ease-out;
+  animation-name:             rotate; 
+  animation-duration:         1.0s; 
+  animation-iteration-count:  infinite;
+  animation-timing-function: linear; 
+}
+
+
+/* ---------------------------------------------------------------------------------- */
+
+
+
+.checkmark__circle {
+stroke-dasharray: 166;
+stroke-dashoffset: 166;
+stroke-width: 5;
+stroke-miterlimit: 10;
+stroke: #ff0000;
+fill: none;
+animation: stroke 0.6s cubic-bezier(0.65, 0, 0.45, 1) forwards;
+}
+
+.checkmark {
+width: 60px;
+height: 60px;
+border-radius: 60%;
+display: block;
+stroke-width: 5;
+stroke: #fff;
+stroke-miterlimit: 10;
+margin: -265px 480px 0;
+box-shadow: inset 0px 0px 0px #e90202;
+animation: fill .4s ease-in-out .4s forwards, scale .3s ease-in-out .9s both;
+}
+
+.checkmark__check {
+transform-origin: 50% 50%;
+stroke-dasharray: 48;
+stroke-dashoffset: 48;
+animation: stroke 0.3s cubic-bezier(0.65, 0, 0.45, 1) 0.8s forwards;
+}
+
+@keyframes stroke {
+100% {
+  stroke-dashoffset: 0;
+}
+}
+@keyframes scale {
+0%, 100% {
+  transform: none;
+}
+50% {
+  transform: scale3d(1.1, 1.1, 1);
+}
+}
+@keyframes fill {
+100% {
+  box-shadow: inset 0px 0px 0px 30px #ff0000;
+}
+}
+
+#spfont{
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+ font-size: 20px !important;
+}
+#md1{
+  
+  background-image: url("https://img.freepik.com/free-photo/shopping-cart-filled-with-coins-copy-space-background_23-2148305919.jpg?w=1380&t=st=1662150657~exp=1662151257~hmac=ddc648c920ac9a8ef5b9e5c0b101f86b7fd40ff4bd7e3e2aa93bbad7302c770f") !important;
+ 
+}
+#pSub1{
+
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   font-size: 18px;
+
+}
+p1{
+   font-size: 25px;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   font-weight: bold;
+  }
+#spfont{
+
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+
+}
+p2{
+  font-size: 18px !important;
+  font-weight: bold;
+  font-family: sans-serif !important;
+}
+#md2{
+  background-image: linear-gradient(to top right, #e4e4e5, #2e3f4a);
+  padding-top: 55px !important;
+  padding-bottom: 55px !important;
+  padding-left: 20px !important;
+
+}
